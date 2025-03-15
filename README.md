@@ -10,7 +10,8 @@ Ataques inalámbricos 📶 con Aircrack-ng y Airmon-ng.
 Ingeniería social 🎭 con el Social Engineering Toolkit (SET).
 Generación de shells reversos 🖥️ con MSFVenom y Meterpreter.
 Animaciones y estética demoníaca 😈 con un logo animado.
-📌 Instalación:
+📌 Instalación en una sola linea
+git clone https://github.com/tuusuario/SATAN.git cd SATAN pip install -r requirements.txt python satan.py
 
 
 
