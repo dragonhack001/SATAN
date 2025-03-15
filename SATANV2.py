@@ -1,7 +1,6 @@
 import os
 import time
 import sys
-import winsound
 import socket
 import scapy.all as scapy
 import itertools
@@ -111,7 +110,7 @@ def main():
     print_logo()
 
     # Reproducir sonido de risa demoníaca y animación
-    play_sound('sound_laugh.wav')
+    play_sound('D:\Documentos\Desktop\SATAN V1/sound_laugh.wav')
     evil_laugh_animation()
 
     while True:
@@ -125,15 +124,15 @@ def main():
         choice = input(Fore.GREEN + "Choose an option: " + Style.RESET_ALL)
 
         if choice == "1":
-            play_sound('sound1.wav')
+            play_sound('D:\Documentos\Desktop\SATAN V1/sound_laugh.wav')
             port_scanner()
         elif choice == "2":
-            play_sound('sound2.wav')
+            play_sound('D:\Documentos\Desktop\SATAN V1/sound_laugh.wav')
             network_sniffer()
         elif choice == "3":
             print(Fore.YELLOW + "Feature not implemented yet." + Style.RESET_ALL)
         elif choice == "4":
-            play_sound('sound2.wav')
+            play_sound('D:\Documentos\Desktop\SATAN V1/sound_laugh.wav')
             brute_force()
         elif choice == "5":
             print(Fore.RED + "Exiting SATAN..." + Style.RESET_ALL)
