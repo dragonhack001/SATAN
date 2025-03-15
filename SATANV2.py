@@ -5,6 +5,7 @@ import socket
 import scapy.all as scapy
 import itertools
 import string
+import winsound
 from colorama import Fore, Back, Style
 
 # Reproducir sonido de "risa demoníaca"
@@ -110,7 +111,7 @@ def main():
     print_logo()
 
     # Reproducir sonido de risa demoníaca y animación
-    play_sound('sound_laugh.wav')
+    winsound.PlaySound('sound_laugh.wav', winsound.SND_FILENAME)
     evil_laugh_animation()
 
     while True:
@@ -124,15 +125,15 @@ def main():
         choice = input(Fore.GREEN + "Choose an option: " + Style.RESET_ALL)
 
         if choice == "1":
-            play_sound('sound_laugh.wav')
+            winsound.PlaySound('sound_laugh.wav', winsound.SND_FILENAME)
             port_scanner()
         elif choice == "2":
-            play_sound('/sound_laugh.wav')
+            winsound.PlaySound('sound_laugh.wav', winsound.SND_FILENAME)
             network_sniffer()
         elif choice == "3":
             print(Fore.YELLOW + "Feature not implemented yet." + Style.RESET_ALL)
         elif choice == "4":
-            play_sound('sound_laugh.wav')
+            winsound.PlaySound('sound_laugh.wav', winsound.SND_FILENAME)
             brute_force()
         elif choice == "5":
             print(Fore.RED + "Exiting SATAN..." + Style.RESET_ALL)
