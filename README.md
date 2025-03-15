@@ -11,10 +11,8 @@ Ingeniería social 🎭 con el Social Engineering Toolkit (SET).
 Generación de shells reversos 🖥️ con MSFVenom y Meterpreter.
 Animaciones y estética demoníaca 😈 con un logo animado.
 📌 Instalación:
-git clone https://github.com/tuusuario/SATAN.git
-cd SATAN
-pip install -r requirements.txt
-python satan.py
+
+
 
 ⚠️ Advertencia:
 Esta herramienta debe utilizarse solo con propósitos educativos y en entornos de prueba autorizados. El uso indebido es tu responsabilidad.
